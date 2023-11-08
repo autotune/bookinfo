@@ -1,8 +1,7 @@
 terraform {
   required_providers {
-    kubernetes = {
+    digitalocean = {
       source  = "digitalocean/digitalocean"
-      version = "2.32.0"
+      version = "~> 2.0"
     }
   }
-}
